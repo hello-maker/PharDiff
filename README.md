@@ -133,16 +133,16 @@ The main results for the proposed model are presented in the table below. For a 
 ### Evaluation of Generated Molecule
 | Model      | VinaScore  | VinaMin   | VinaDock   | HighAiffinity | VinaScore<sub>SA</sub> | SR | 
 |------------|------------|-----------|------------|---------------|-------------|---------------|
-| [`AR`](https://github.com/AnonymousCIKM2024/PharDiff/blob/main/sampling_results/ar_vina_docked.pt)     | -5.75 | -6.18 | -6.75  |  0.379  | -5.59  | 74.7%  |
-| [`LiGAN`](https://github.com/AnonymousCIKM2024/PharDiff/blob/main/sampling_results/cvae_vina_docked.pt)    |    -  |    -   | -6.33  |  0.21  | -  | -68.4%  | 
-| [`GraphBP`](https://github.com/AnonymousCIKM2024/PharDiff/blob/main/sampling_results/cvae_vina_docked.pt)     |    -  |    -   | -4.80  |  0.14  | -  | 57.1%  | 
-| [`Pocket2Mol`](https://github.com/AnonymousCIKM2024/PharDiff/blob/main/sampling_results/pocket2mol_vina_docked.pt) | -5.15 | -6.42 | -7.15  |  0.48  | -5.12  | 88.7%  | 
-| [`DiffSBDD`](https://github.com/AnonymousCIKM2024/PharDiff/blob/main/sampling_results/DiffSBDD_vina_dock.pt) | 52.78 | 16.45 | -6.65  |  0.452  | -51.53  | 83.0%  | 
-| [`DrugGPS`](https://github.com/AnonymousCIKM2024/PharDiff/blob/main/sampling_results/DrugGPS_vina_dock.pt) | 28.18 | 6.33 | -3.74  |  0.12  | -27.32  | 48.1%  | 
-| [`TargetDiff`](https://github.com/AnonymousCIKM2024/PharDiff/blob/main/sampling_results/targetdiff_vina_docked.pt) | -5.47 | -6.64 | -7.80  |  0.57  | -5.31  | 91.9%  | 
-| [`ResGen`](https://github.com/AnonymousCIKM2024/PharDiff/blob/main/sampling_results/ResGen_vina_dock.pt) | 13.79 | -1.53 | -4.90  |  0.23  | -13.73  | 40.7%  | 
-| [`PharDiff`](https://github.com/AnonymousCIKM2024/PharDiff/blob/main/sampling_results/PharDiff_vina_dock.pt) | **-6.64** | **-7.20** | **-8.16**  |  **0.62**  | **-5.93**  | **98.1%**  | 
-| [`Testset`](https://github.com/AnonymousCIKM2024/PharDiff/blob/main/sampling_results/crossdocked_test_vina_docked.pt) | -6.36 | -6.71 | -7.45  |  -  | -6.28  | -  | 
+| [`AR`](https://github.com/hello-maker/PharDiff/blob/main/sampling_results/ar_vina_docked.pt)     | -5.75 | -6.18 | -6.75  |  0.379  | -5.59  | 74.7%  |
+| [`LiGAN`](https://github.com/hello-maker/PharDiff/blob/main/sampling_results/cvae_vina_docked.pt)    |    -  |    -   | -6.33  |  0.21  | -  | -68.4%  | 
+| [`GraphBP`](https://github.com/hello-maker/PharDiff/blob/main/sampling_results/cvae_vina_docked.pt)     |    -  |    -   | -4.80  |  0.14  | -  | 57.1%  | 
+| [`Pocket2Mol`](https://github.com/hello-maker/PharDiff/blob/main/sampling_results/pocket2mol_vina_docked.pt) | -5.15 | -6.42 | -7.15  |  0.48  | -5.12  | 88.7%  | 
+| [`DiffSBDD`](https://github.com/hello-maker/PharDiff/blob/main/sampling_results/DiffSBDD_vina_dock.pt) | 52.78 | 16.45 | -6.65  |  0.452  | -51.53  | 83.0%  | 
+| [`DrugGPS`](https://github.com/hello-maker/PharDiff/blob/main/sampling_results/DrugGPS_vina_dock.pt) | 28.18 | 6.33 | -3.74  |  0.12  | -27.32  | 48.1%  | 
+| [`TargetDiff`](https://github.com/hello-maker/PharDiff/blob/main/sampling_results/targetdiff_vina_docked.pt) | -5.47 | -6.64 | -7.80  |  0.57  | -5.31  | 91.9%  | 
+| [`ResGen`](https://github.com/hello-maker/PharDiff/blob/main/sampling_results/ResGen_vina_dock.pt) | 13.79 | -1.53 | -4.90  |  0.23  | -13.73  | 40.7%  | 
+| [`PharDiff`](https://github.com/hello-maker/PharDiff/blob/main/sampling_results/PharDiff_vina_dock.pt) | **-6.64** | **-7.20** | **-8.16**  |  **0.62**  | **-5.93**  | **98.1%**  | 
+| [`Testset`](https://github.com/hello-maker/PharDiff/blob/main/sampling_results/crossdocked_test_vina_docked.pt) | -6.36 | -6.71 | -7.45  |  -  | -6.28  | -  | 
 
 
 <table class="center">
@@ -151,7 +151,7 @@ The main results for the proposed model are presented in the table below. For a 
   <td style="text-align:center;"><b>Demo video of Molecular Dynamics about Generated Molecule</b></td>
 </tr>
 <tr>
-  <td><img src="https://github.com/AnonymousCIKM2024/PharDiff/blob/main/assets/change_docking_whitegrid.png" width="400"></td>
-  <td><img src="https://github.com/AnonymousCIKM2024/PharDiff/blob/main/assets/MD_result.gif" width="400"></td>
+  <td><img src="https://github.com/hello-maker/PharDiff/blob/main/assets/change_docking_whitegrid.png" width="400"></td>
+  <td><img src="https://github.com/hello-maker/PharDiff/blob/main/assets/MD_result.gif" width="400"></td>
 </tr>
 </table>
